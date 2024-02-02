@@ -65,23 +65,27 @@ dset1 <- data.frame(id,dbh,ht)
 knitr::kable(dset1,caption = "Diameter Height")
 ```
 
-# Budget
+## Budget
 
 The budget allocated for this fiscal year(2080/81) will be used for Field Verification.The Detail breakdown of budget is given in the table below.
 
+
 | S.N |         Particulars  |  Unit | Quantity | Rate    |  Total | Remarks |
 |:---|:---------------------:|------:|---------:|--------:|-------:|--------:|
-| 1   |         TADA         |  LS   |          |         | 160000 |       |
-| 2   |         Vehicle      |  Days |     50   | 7904.35 | 395217.50 |    |
-| 3   |         Fuel         | Liter |      1175 |     160 | 188000 |      |
-| 4   |         Paper/tonner | LS    |           |         | 49000 |       |
-| 5   | Miscellaneous        |    LS |           |         |  7782.5|       |
-|     |   **Total** (VAT Included)   |   |       |         | **800000** |     |
+| 1   | TADA                 |  LS   |          |         | 200000 |         |
+| 2   | Vehicle              |  Days |     50   | 10000   | 500000 |         |
+| 3   | Fuel                 | Liter |    1000  | 150     | 150000 |         |
+| 4   | Paper/tonner         | LS    |          |         | 40000  |         |
+| 5   | Miscellaneous        | LS    |          |         | 10000  |         |
+|     |   **Total**          |       |          |         | **900000**|      |
+
+: Estimated Budget
 
 .........\hspace{50mm} ............\hspace{50mm} ............... \newline 
 Prepared by:\hspace{45mm} Checked by:\hspace{50mm} Approved by: \newline 
 Sujas Phuyal \hspace{45mm} Prakash Thapa \hspace{45mm} Nabaraj Pudasaini 
 \newline ( Forest Officer )\hspace{40mm} ( UnderSecretary)\hspace{50mm} (Chief)
+
 
 
 
@@ -151,4 +155,15 @@ $\infty$
 
 This is the citation of paper[@acharya2016].
 
+\newpage 
+
+
 References
+
+
+
+
+
+
+
+
