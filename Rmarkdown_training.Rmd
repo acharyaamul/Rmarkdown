@@ -9,7 +9,8 @@ output:
 bibliography: references.bib
 ---
 
-
+\listoftables
+\listoffigures
 
 # Heading 1
 
@@ -51,6 +52,9 @@ bibliography: references.bib
 
 : Landcover 2019
 
+
+
+
 ### Method 2
 
 ```{r}
@@ -61,11 +65,34 @@ dset1 <- data.frame(id,dbh,ht)
 knitr::kable(dset1,caption = "Diameter Height")
 ```
 
+# Budget
+
+The budget allocated for this fiscal year(2080/81) will be used for Field Verification.The Detail breakdown of budget is given in the table below.
+
+| S.N |         Particulars  |  Unit | Quantity | Rate    |  Total | Remarks |
+|:---|:---------------------:|------:|---------:|--------:|-------:|--------:|
+| 1   |         TADA         |  LS   |          |         | 160000 |       |
+| 2   |         Vehicle      |  Days |     50   | 7904.35 | 395217.50 |    |
+| 3   |         Fuel         | Liter |      1175 |     160 | 188000 |      |
+| 4   |         Paper/tonner | LS    |           |         | 49000 |       |
+| 5   | Miscellaneous        |    LS |           |         |  7782.5|       |
+|     |   **Total** (VAT Included)   |   |       |         | **800000** |     |
+
+.........\hspace{50mm} ............\hspace{50mm} ............... \newline 
+Prepared by:\hspace{45mm} Checked by:\hspace{50mm} Approved by: \newline 
+Sujas Phuyal \hspace{45mm} Prakash Thapa \hspace{45mm} Nabaraj Pudasaini 
+\newline ( Forest Officer )\hspace{40mm} ( UnderSecretary)\hspace{50mm} (Chief)
+
+
+
+
+
+
 ## Figure
 
 ### Method 1
 
-![Nepal Logo](logo.jpg){width=60%}
+![Nepal Logo](logo.jpg){width="60%"}
 
 ### Method 2
 
@@ -76,20 +103,19 @@ plot(dbh,ht,pch=1,cex=1.5,col="blue")
 
 ```
 
-
 ## Formula latex
 
- Basic: $2x + 4y - 3z / 12 * 43.8$
- 
- Exponents: $3^{2x}$
- 
- Subscripts: $Y_{i}$ 
+Basic: $2x + 4y - 3z / 12 * 43.8$
+
+Exponents: $3^{2x}$
+
+Subscripts: $Y_{i}$
 
 Summation: $\sum_{i=1}^{10} x_i$
 
 Integral: $\int_{1}^{10} x dx$
 
-Fractions: $\frac{3x-9}{2}$ 
+Fractions: $\frac{3x-9}{2}$
 
 Hat: $\hat{x}$
 
@@ -97,8 +123,7 @@ Bar: $\bar{x}$
 
 Square root: $\sqrt{b^2-4ac}$
 
-Some greek: 
-$\alpha$
+Some greek: $\alpha$
 
 $\beta$
 
@@ -122,7 +147,7 @@ $\theta$
 
 $\infty$
 
-## Citation 
+## Citation
 
 This is the citation of paper[@acharya2016].
 
