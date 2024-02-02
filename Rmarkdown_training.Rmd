@@ -1,0 +1,129 @@
+---
+title: "Rmarkdown"
+author: "Amul Kumar Acharya"
+date: '`r Sys.Date()`'
+output: 
+  pdf_document: 
+    toc: true
+    number_sections: true
+bibliography: references.bib
+---
+
+
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+## *Italic*
+
+## **Bold**
+
+## ***Bold Italic***
+
+## List
+
+1.  Item 1
+2.  Item 2
+3.  Item 3
+
+## Bullets
+
+-   Bullets 1
+-   Bullets 2
+-   Bullets 3
+
+## Link
+
+**you can add link:- [here is link of MOFE](https://www.mofe.gov.np)**
+
+## Table
+
+### Method 1
+
+| Forest | OWL  | Grassland |
+|--------|------|-----------|
+| 47.57  | 3.45 | 10.6      |
+
+: Landcover 2019
+
+### Method 2
+
+```{r}
+id<-seq(1:5)
+dbh<- c(5,10,15,20,25)
+ht<- c(2,4,6,8,10)
+dset1 <- data.frame(id,dbh,ht)
+knitr::kable(dset1,caption = "Diameter Height")
+```
+
+## Figure
+
+### Method 1
+
+![Nepal Logo](logo.jpg){width=60%}
+
+### Method 2
+
+```{r, fig.height = 3, fig.width = 5, fig.cap="Diameter Height relationship",fig.align = "center"}
+dbh<- c(5,10,15,20,25)
+ht<- c(2,4,6,8,10)
+plot(dbh,ht,pch=1,cex=1.5,col="blue")
+
+```
+
+
+## Formula latex
+
+ Basic: $2x + 4y - 3z / 12 * 43.8$
+ 
+ Exponents: $3^{2x}$
+ 
+ Subscripts: $Y_{i}$ 
+
+Summation: $\sum_{i=1}^{10} x_i$
+
+Integral: $\int_{1}^{10} x dx$
+
+Fractions: $\frac{3x-9}{2}$ 
+
+Hat: $\hat{x}$
+
+Bar: $\bar{x}$
+
+Square root: $\sqrt{b^2-4ac}$
+
+Some greek: 
+$\alpha$
+
+$\beta$
+
+$\chi$
+
+$\delta$
+
+$\epsilon$
+
+$\lambda$
+
+$\mu$
+
+$\pi$
+
+$\rho$
+
+$\sigma$
+
+$\theta$
+
+$\infty$
+
+## Citation 
+
+This is the citation of paper[@acharya2016].
+
+References
