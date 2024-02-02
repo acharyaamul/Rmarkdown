@@ -1,5 +1,5 @@
 ---
-title: "Rmarkdown"
+title: "Rmarkdown Tutorial for Training"
 author: "Amul Kumar Acharya"
 date: '`r Sys.Date()`'
 output: 
@@ -11,6 +11,8 @@ bibliography: references.bib
 
 \listoftables
 \listoffigures
+
+\newpage 
 
 # Heading 1
 
@@ -67,7 +69,7 @@ knitr::kable(dset1,caption = "Diameter Height")
 
 ## Budget
 
-The budget allocated for this fiscal year(2080/81) will be used for Field Verification.The Detail breakdown of budget is given in the table below.
+The budget allocated for this fiscal year(2080/81) is given in the table below.
 
 
 | S.N |         Particulars  |  Unit | Quantity | Rate    |  Total | Remarks |
